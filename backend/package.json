@@ -1,0 +1,27 @@
+{
+  "name": "crud_node",
+  "version": "1.0.0",
+  "description": "will test api's here using node,expres and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubey748/CRUD_express.git"
+  },
+  "author": "ABhishek Dubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubey748/CRUD_express/issues"
+  },
+  "homepage": "https://github.com/dubey748/CRUD_express#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^5.8.4",
+    "nodemon": "^2.0.20"
+  }
+}
